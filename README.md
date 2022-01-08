@@ -1,3 +1,10 @@
 # ffmpeg
 
 ffmpeg -framerate 30 -pattern_type glob -i "folder-with-photos/*.JPG" -s:v 1440x1080 -c:v libx264 -crf 17 -pix_fmt yuv420p my-timelapse.mov
+
+
+ffmpeg -i in.mov -vf "transpose=1" out.mov
+0 = 90CounterCLockwise and Vertical Flip (default)
+1 = 90Clockwise
+2 = 90CounterClockwise
+3 = 90Clockwise and Vertical Flip
