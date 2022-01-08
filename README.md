@@ -1,3 +1,3 @@
-# time_series
+# Timelapse Scripts
 
 A place to collect timelapse related scripts and commands
